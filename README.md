@@ -32,7 +32,7 @@ Start | End
 ![](./results/plant_start.png)|![](./results/plant_end.png)
 
 # Theory
-- PCL documentation for [estimating surface normals] (http://pointclouds.org/documentation/tutorials/normal_estimation.php#normal-estimation)
+- PCL documentation for [estimating surface normals](http://pointclouds.org/documentation/tutorials/normal_estimation.php#normal-estimation)
 - PCL documentation for [PFH](http://pointclouds.org/documentation/tutorials/pfh_estimation.php)
 - PCL documentation of [FPFH](http://pointclouds.org/documentation/tutorials/fpfh_estimation.php)
 - Rusu [PhD thesis](http://mediatum.ub.tum.de/doc/800632/941254.pdf) and [papers](https://scholar.google.com/scholar?q=rusu+point+feature+histogram&hl=en&as_sdt=0&as_vis=1&oi=scholart)
