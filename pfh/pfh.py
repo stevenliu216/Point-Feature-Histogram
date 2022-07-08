@@ -175,7 +175,9 @@ class PFH(object):
                 for p in p_list_copy:
                     pi = pc[p]
                     pj = pc[z]
-                    if np.arccos(np.dot(norm[p], pj - pi)) <= np.arccos(np.dot(norm[z], pi - pj)):
+
+                    norm_value = np.linalg.norm(pj - pi)
+                    if np.arccos(np.dot(norm[p], pj - pi)/norm_value) <= np.arccos(np.dot(norm[z], pi - pj)/norm_value):
                         ps = pi
                         pt = pj
                         ns = np.asarray(norm[p]).squeeze()
